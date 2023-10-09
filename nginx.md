@@ -2,7 +2,8 @@
 
 
 ##arquivo 
-
+````
+```
 server {
     listen 80;
     listen [::]:80;
@@ -35,3 +36,5 @@ server {
         deny all;
     }
 }
+```
+````
