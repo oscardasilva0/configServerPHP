@@ -1,6 +1,8 @@
-###install debian
+### install debian
+````
 sudo apt update
 sudo apt install nginx
+````
 
 ### install amazonlinux/centos
 ````
@@ -10,7 +12,8 @@ sudo yum install nginx
 
 
 
-###arquivo site.conf
+### arquivo site.conf
+
 ````
 server {
     listen 80;
