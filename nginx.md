@@ -6,7 +6,7 @@ sudo apt install nginx
 ````
 sudo yum update
 sudo yum install nginx
-```|
+````
 
 
 
