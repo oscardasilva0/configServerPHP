@@ -38,7 +38,7 @@ server {
     error_page 404 /index.php;
  
     location ~ \.php$ {
-        fastcgi_pass unix:/var/run/php-fpm/www.sock;
+        fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
     }
